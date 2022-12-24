@@ -1,0 +1,87 @@
+.Comment{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.CommentBox{
+    flex: 1;
+}
+
+.CommentContent{
+    background-color: #29292E;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.CommentContent header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.AuthorAndTime{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.AuthorAndTime strong{
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #E1E1E6;
+}
+
+.AuthorAndTime time{
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: #8D8D99;
+}
+
+.CommentContent header button{
+    background-color: transparent;
+    border: 0;
+    color: #8D8D99;
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+    transition: 0.2s all ease;
+}
+
+.CommentContent header button:hover{
+    color: #F75A68;
+}
+
+.CommentContent p{
+    margin-top: 1rem;
+    color: #E1E1E6;
+}
+
+.CommentBox footer{
+    margin-top: 1rem;
+}
+
+.CommentBox footer button{
+    background-color: transparent;
+    border: 0;
+    color: #8D8D99;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.CommentBox footer button:hover{
+    color: #00B37E;
+}
+
+.CommentBox footer button svg{
+    margin-right: 0.5rem;
+}
+
+.CommentBox footer button span::before{
+    content: "\2022";
+    padding: 0 0.25rem;
+}

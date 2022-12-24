@@ -1,0 +1,15 @@
+.Header{
+    width: 100vw;
+    height: 15vh;
+    background-color: #202024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header p{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}

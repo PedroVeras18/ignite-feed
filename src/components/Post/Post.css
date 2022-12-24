@@ -1,0 +1,114 @@
+.Post{
+    background-color: #202024;
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.Post + .Post{
+    margin-top: 2rem;
+}
+
+.Content{
+    line-height: 1.6;
+    color: #C4C4CC;
+    margin-top: 1.5rem;
+}
+
+.Content p{
+    margin-top: 1rem;
+}
+
+.Content a{
+    font-weight: bold;
+    color: #00B37E;
+    text-decoration: none;
+}
+
+.Post > header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post > header time{
+    font-size: 0.875rem;
+    color: #8D8D99;
+}
+
+.Author{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AuthorInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.AuthorInfo strong{
+    display: block;
+    color: #E1E1E6;
+    line-height: 1.6;
+}
+
+.AuthorInfo span{
+    display: block;
+    color: #8D8D99;
+    font-size: 0.875rem;
+}
+
+.CommentForm{
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #323238;
+}
+
+.CommentForm > strong{
+    line-height: 1.6;
+    color: #E1E1E6;
+}
+
+.CommentForm textarea{
+    width: 100%;
+    background-color: #121214;
+    color: #C4C4CC;
+    border: 0;
+    resize: none;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 8px;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+}
+
+.CommentForm textarea:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px #00B37E;
+}
+
+.CommentForm button{
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #00B37E;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+.CommentForm button:not(:disabled):hover{
+    background-color: #02ce91;
+}
+
+.CommentForm button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.CommentList{
+    margin-top: 2rem;
+}
