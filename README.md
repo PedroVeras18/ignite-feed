@@ -37,3 +37,10 @@ Neste desafio pude aprender sobre:
 - Imutabilidade no React
 - Closures no React
 - Uso do Typescript 
+## Stack utilizada
+
+**Front-end:** React, Typescript
+
+**Back-end:** Dados feitos no Front
+
+
